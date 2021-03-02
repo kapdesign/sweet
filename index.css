@@ -1,0 +1,355 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+.topnav {
+  width:100%;
+  height:75px;
+
+}
+.topnav a {
+  	float: left;
+  	display: block;
+  	color: #fff;
+  	text-align: center;
+  	padding: 14px 16px;
+	text-decoration: none;
+  	font-size: 15px;
+	font-weight: bold;
+}
+.topnav_btn_display{
+	border: 0px solid red; 
+	display: inline-block; 
+	height: 30%;
+	width: 15%
+}
+.topnavdisplayimg1{
+	border: 0px solid red;
+	display:inline-block;
+	width:19%;
+	padding:0px 0px 0px 16%;
+	height: auto;
+}
+.topnav_display_2{
+	border: 0px solid red;
+	display: inline-block; 
+	margin-left: auto; 
+	height: 100%;
+	width: 100%;
+	padding-right: 0%;
+	padding-left: 24%;
+}
+.topnavdisplaylink1{
+	height: 100%;
+	display: inline-block;
+	width:100%;
+	border: 0px solid red;
+}
+.topnav_menu_icon{
+	display: none;
+}
+.topnav_menu_icon_bar{
+	width: 25px;
+	height: 2px;
+	background-color: white;
+	margin: 6px 0;
+}
+
+.header_parent{
+	border:0px solid red;
+	width:100%;
+	height:630px;
+	background-image:url(Pictures/portrait-graceful-brown-haired-woman.jpg);
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	background-position:0px -100px;
+	position:relative;
+}
+.header_display_title_1{
+	border:0px solid red;
+	display:inline-block;
+	width: 100%;
+	text-align: center;
+	margin-top: 155px;
+}
+.header_title_1{
+	color:#FFF;
+	font-size:55px;
+	padding:0;
+	margin:0;
+	letter-spacing:3;
+	transform: scale(1,1.1);
+}
+.header_title_top_1{
+	color:#fff;
+	font-size:17px;
+	padding:0px 0px 15px 0px;
+	margin:0;
+	letter-spacing:2;
+	font-weight: bold;
+}
+.header_title_display_btn_1{
+	border:0px solid red; 
+	padding-top:50px;
+}
+.header_title_btn_1{
+	display: inline-block;
+	border:none;
+	background-color: #1f2021;
+	color:#FFF;
+	padding:16px 32px;
+	background-size: 120% auto;
+}
+.dot {
+	height: 100%;
+	width: auto;
+	border: 2px solid white;
+	background-color: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0% 0.2%;
+}
+.dot_border {
+	height: 100%;
+	width: auto;
+	border: 2px solid white;
+	background-color: transparent;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0% 0.2%;
+}
+
+.desc_1_parent{
+	display: flex;
+	height: auto;
+	width: 100%;
+	padding: 75px 0px;
+	
+}
+.desc-1-text-display{
+	display: inline-block; 
+	width: 60%;
+}
+
+.shopby-parent{
+	width: 100%; 
+	height: 400px; 
+	text-align: center;
+}
+.shopby-child-1{
+	display: inline-block; 
+	width: 96%; 
+	height: 100%;
+}
+.shopby-child-1-child-1{
+	width: 100%; 
+	height: 100%; 
+	display: flex; 
+	border: 0px solid red;
+}
+.shopby-menu-box{
+	
+	width: 40%; 
+	height: 100%; 
+	background-size: auto 100%;
+	margin: 0% 0.5%;
+}
+.shopby-menu-box-fader{
+	width: 100%; 
+	height: 100%; 
+	background-color: rgba(0, 0, 0, 0.25);
+	display: flex; 
+	align-items: center;
+}
+.shopby-menu-box-fader p{
+	text-align: center; 
+	display: block; 
+	width: 100%; 
+	color: white;
+	font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.menu_1_parent{
+	display: block;
+	height: auto;
+	padding-top: 0px;
+	border: 0px solid red;
+
+}
+.menu-1-display{
+	width: 100%; 
+	height: 100%;
+	border: 0px solid red; 
+
+}
+.menu-1-display-child-1{
+	display: flex;
+	height: 100%; 
+	width: 100%;
+}
+.menu-1-bg-box-display{
+	text-align: center; 
+	height: 500px;
+	width: 50%;
+}
+.menu-1-bg-box{
+	background-size: auto 100%; 
+	width: 97%; 
+	height: 100%;
+	display: inline-block;
+	position: relative;
+}
+.menu-1-bg-box-inner-border{
+	display: flex;
+	align-items: center;
+	width: 95%; 
+	height: 95%; 
+	border: 2px solid white; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.menu-1-bg-box-inner-border2{
+	display: flex;
+	align-items: center;
+	width: 95%; 
+	height: 95%; 
+	border: 0px solid white; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.ending_parent{
+	width: 100%; 
+	height: 400px; 
+	background-color: white;
+	padding-top: 100px;
+}
+.ending_social_box{
+	display: inline-block;
+	padding: 0px 12px;
+}
+.ending_social_box img{
+	width: 35px;
+	height: auto;
+}
+	
+@media only screen and (max-width:800px) {
+  /* For mobile phones(500px), For tablets(800px): */
+  
+
+.topnav{
+	text-align: center;
+}
+.topnav a{
+	display:none;
+	
+} 
+.topnav_btn_display{
+	display: none;
+}
+.topnav_menu_icon{
+	display: inline-block;
+}
+.topnavdisplayimg1{
+	border: 0px solid red;
+	display:inline-block;
+	width:100%;
+	padding:0px;
+	height: auto;
+}
+.topnav_display_2{
+	display: none;
+	border: 0px solid red;
+	margin-left: auto; 
+	height: 100%;
+	width: 100%;
+	padding-right: 0%;
+	padding-left: 24%;
+}
+
+.header_parent{
+	border:0px solid red;
+	width:100%;
+	height: 800px;
+	background-size:auto 100%;
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	
+}
+
+.header_display_title_1{
+	border:0px solid red;
+	display:inline-block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 175px;
+	padding: 0% 15%;
+}
+.header_title_1{
+	border: 0px solid red;
+	width: 100%;
+	font-size:55px;
+	padding:11px 0px;
+	margin:0;
+	letter-spacing:2;
+	
+}
+.header_title_top_1{
+	width: 100%;
+	color:#fff;
+	font-size:17px;
+	padding:0px 0px 15px 0px;
+	margin:0;
+	letter-spacing:2;
+	font-weight: bold;
+}
+.header_title_display_btn_1{
+	border:0px solid red; 
+	padding-top:50px;
+	width: 100%;
+	text-align: center;
+}
+
+.desc_1_parent{
+
+}
+.desc-1-text-display{
+	display: inline-block; 
+	width: 90%;
+}
+
+.menu_1_parent{
+	display: flex;
+
+}
+.menu-1-display-child-1{
+	border: 0px solid red;
+	display: block;
+	height: 100%; 
+	width: 100%;
+}
+
+.menu-1-bg-box-display{
+	display: inline-block;
+	width: 100%;
+}
+.menu-1-bg-box{
+
+}
+
+
+}
